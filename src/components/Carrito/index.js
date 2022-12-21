@@ -7,6 +7,7 @@ export const Carrito = () => {
     const [menu, setMenu] = value.menu;
     const [carrito, setCarrito] = value.carrito;
     const [total] = value.total;
+    
 
     const tooglefalse = () =>{
         setMenu(false);
@@ -45,6 +46,15 @@ export const Carrito = () => {
             })
             setCarrito([...carrito])
         }
+    }
+
+    const payment = (event) => {
+        event.preventDefault()
+        alert("gracias por tu compra");
+        setMenu(false)
+        localStorage.clear()
+        window.location.reload()
+        
     }
 
 
@@ -87,7 +97,7 @@ export const Carrito = () => {
                 </div>
                 <div className='carrito__footer'>
                     <h3>Total: ${total}</h3>
-                    <button className='btn'>payment</button>
+                    <button className='btn' onClick={payment}>payment</button>
                 </div>
             </div>
         </div>  

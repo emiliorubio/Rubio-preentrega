@@ -22,7 +22,7 @@ code {
   box-shadow: 0 2px 6px white;
   padding: 0 15px;
   box-sizing: border-box;
-  
+  position: relative;
 }
 
 /*----Header-----*/
@@ -388,6 +388,10 @@ ul{
 	list-style: none;
 }
 .footer{
+  position: absolute;
+  clear: both;
+  left:0;
+  right:0;
 	background-color: #24262b;
     padding: 50px 0;
 }
@@ -429,6 +433,242 @@ ul{
 .footer-col ul li a:hover{
 	color: #ffffff;
 	padding-left: 8px;
+}
+
+/*----Blog Duelo----*/
+.duelo {
+  padding-top: 90px;
+  
+}
+.title-duelo{
+  text-align: center;
+  color: white;
+  padding-bottom: 25px;
+}
+.proposite-duelo{
+  background-image: url(../src/images/backgroundstartpage.jpg);
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 40px 40px;
+  width: 94%;
+}
+.content-duelo h2{
+  padding-left: 50px;
+  padding-bottom: 10px;
+}
+.content-duelo p{
+  padding-left: 50px;
+  width: 80%;
+  padding-bottom: 15px;
+}
+.content-duelo h3{
+  padding-left: 50px;
+  padding-top: 50px;
+}
+.listas li{
+  padding-left: 70px;
+  padding-bottom: 10px;
+  font-size: 1.1rem;
+}
+.listas p{
+  padding-left: 90px;
+}
+
+.title-vid-duelo{
+  width: 93%;
+  background-image: url(../src/images/backgroundstartpage.jpg);
+  text-align: center;
+  color: white;
+  padding: 40px 40px;
+}
+
+.cont-vid-duelo {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 40px 40px;
+
+}
+
+.vid-01 {
+  width: 400px;
+  height: 400px;
+}
+
+.vid-02 {
+  width: 400px;
+  height: 400px;
+
+}
+
+.vid-03 {
+  width: 400px;
+  height: 400px;
+
+}
+/*----Blog Problemas----*/
+
+.problem{
+  padding-top: 90px;
+  background-color: rgba(183, 185, 200, 0.42);
+}
+
+.title-problem{
+  text-align: center;
+  width: 93%;
+  padding: 40px 40px;
+  color: white;
+  background-color: rgba(250, 23, 223, 0.299);
+}
+
+.ini-problem{
+  display: flex;
+  gap: 15px;
+}
+.aproblemado{
+  padding-top: 25px;
+  width: 600px;
+  height: auto;
+}
+.text-aproblemado{
+  width: 80%;
+  text-align: start;
+  color: rgb(155, 16, 171);
+  padding: 90px 25px;
+}
+.text-problem h2{
+  color: #e91e63;
+  padding: 25px 0px 25px 50px;
+  
+  
+
+}
+.text-problem p{
+  padding-left: 60px;
+  color: rgb(155, 16, 171);
+  text-align: start;
+  width: 93%;
+  font-weight: bold;
+
+}
+.text-problem h3{
+  padding: 10px 0px 5px 50px;
+  color: white;
+}
+
+.text-problem ul>li{
+  padding: 5px 0px 5px 70px;
+  color: white;
+  font-weight: bold;
+}
+.friends-img{
+  width: 100%;
+  
+}
+
+.title-vid-problem{
+  width: 93%;
+  background-color: rgba(221, 87, 199, 0.503);
+  text-align: center;
+  color: white;
+  padding: 40px 40px;
+  margin-top: 25px;
+}
+
+.cont-vid-problem {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 40px 40px;
+
+}
+
+.vid-1 {
+  width: 400px;
+  height: 400px;
+}
+
+.vid-2 {
+  width: 400px;
+  height: 400px;
+
+}
+
+.vid-3 {
+  width: 400px;
+  height: 400px;
+
+}
+
+/*----Podcast-----*/
+.podcast{
+  padding-top: 90px;
+}
+.title-podcast{
+  padding-bottom: 50px;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #bbbbbb;
+}
+.autor-podcast{
+  padding: 30px 0px 25px 90px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgba(22, 26, 45, 0.776);
+  
+}
+.container-podcast{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.container-podcast h2{
+  color: rgba(22, 26, 45, 0.776);
+  padding-bottom: 15px;
+  padding-top: 25px;
+}
+.cast {
+  width: 100%;
+  height: auto;
+}
+
+
+
+/*----Contacto----*/
+.contacto {
+  padding-top: 90px;
+}
+
+/*----dropwdown header----*/
+.box {
+  background-color: rgb(0,0,0, 0.7);
+  border-radius: 5px;
+  position: fixed;
+  border:1px solid darkgray;
+  margin-top: 18px;
+}
+
+.box > ul {
+  display: flex;
+  flex-direction: column;
+
+  
+  
+}
+.box li{
+  border: 1px solid white;
+  padding: 10px 30px;
+  
+}
+
+.box >ul>li>a {
+  color: white;  
 }
 
 

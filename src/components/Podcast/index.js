@@ -10,6 +10,7 @@ import LosEnvidiosos from '../../assets/audios-podcast/los-envidiosos.mp3'
 import ElPoderDeTuActitud from '../../assets/audios-podcast/el-poder-de-tu-actitud.mp3'
 import VivirConEntusiasmo from '../../assets/audios-podcast/vivir-con-entusiasmo.mp3'
 import LaReglaDeOro from '../../assets/audios-podcast/la-regla-de-oro.mp3'
+import MayBustillo from '../../assets/audios-podcast/may-bustillo.mp3'
 
 
 export const Podcast = () => {
@@ -19,8 +20,8 @@ export const Podcast = () => {
           <div className='autor-podcast'><h2>Daniel Habif</h2></div>
         <div className='container-podcast'>
           <div>
-            <h2 className='cast'>Que Se Vallan</h2>
-            <ReactAudioPlayer
+            <h2 className='cast'>Que Se Vayan</h2>
+            <ReactAudioPlayer 
             src={QueSeVallan}
             controls
             />
@@ -98,6 +99,18 @@ export const Podcast = () => {
             <h2 className='cast'>La regla de oro</h2>
             <ReactAudioPlayer
             src={LaReglaDeOro}
+            controls
+            />
+          </div>
+        </div>
+
+        <div className='autor-podcast'><h2>May Bustillo</h2></div>
+
+        <div className='container-podcast'>
+          <div>
+            <h2 className='cast'>De ti depende</h2>
+            <ReactAudioPlayer
+            src={MayBustillo}
             controls
             />
           </div>

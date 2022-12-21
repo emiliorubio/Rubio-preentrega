@@ -53,7 +53,7 @@ export const Problemas = () => {
                 <p>Estas son algunas claves que pueden ayudarte a identificar si se trata de ansiedad por problemas económicos o, por el contrario, 
                     estás preocupado por una mala situación:</p>
 
-                <ul>
+                <ul className='lista-ordenada'>
                     <li>1. Insomnio o falta de sueño</li>
                     <li>2. Desmotivación</li>
                     <li>3. Ruminar pensamientos</li>

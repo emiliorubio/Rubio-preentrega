@@ -1,6 +1,4 @@
 *{
-  margin: 0;
-  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -40,6 +38,7 @@ header{
   box-sizing: border-box;
   background-color: black;
   box-shadow: 0 5px 10px white;
+  z-index: 2;
 }
 .logo{
   font-weight: bold;
@@ -513,13 +512,15 @@ ul{
 
 .problem{
   padding-top: 90px;
+  padding-inline-start: 70px;
+  padding-inline-end: 70px;
   background-color: rgba(183, 185, 200, 0.42);
 }
 
 .title-problem{
   text-align: center;
   width: 93%;
-  padding: 40px 40px;
+
   color: white;
   background-color: rgba(250, 23, 223, 0.299);
 }
@@ -529,7 +530,6 @@ ul{
   gap: 15px;
 }
 .aproblemado{
-  padding-top: 25px;
   width: 600px;
   height: auto;
 }
@@ -537,17 +537,13 @@ ul{
   width: 80%;
   text-align: start;
   color: rgb(155, 16, 171);
-  padding: 90px 25px;
+
 }
 .text-problem h2{
   color: #e91e63;
-  padding: 25px 0px 25px 50px;
-  
-  
-
 }
 .text-problem p{
-  padding-left: 60px;
+  
   color: rgb(155, 16, 171);
   text-align: start;
   width: 93%;
@@ -555,15 +551,19 @@ ul{
 
 }
 .text-problem h3{
-  padding: 10px 0px 5px 50px;
   color: white;
 }
 
 .text-problem ul>li{
-  padding: 5px 0px 5px 70px;
+  
   color: white;
   font-weight: bold;
+
 }
+.lista-ordenada li{
+  list-style-type: circle;
+}
+
 .friends-img{
   width: 100%;
   
@@ -605,6 +605,72 @@ ul{
 
 }
 
+/*-----divorcio----*/
+.divorcio{
+  padding-top: 90px;
+  padding-bottom: 90px;
+  padding-inline-start: 70px;
+  padding-inline-end: 70px;
+  background-color: rgba(183, 185, 200, 0.42);
+}
+.divorcio h1{
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  background-color: #188ba0c2;
+}
+.ini-divorcio{
+  display: flex;
+  gap: 15px;
+}
+.ini-divorcio p{
+  text-align: start;
+  font-weight: bold;
+  padding-top: 25px;
+  color: #188ba0c2;
+}
+.info-divorcio p{
+  color: #188ba0c2;
+  font-weight: 600;
+}
+.ini-divorcio h3{
+  text-align: center;
+  font-family: "cursive";
+  padding-top: 90px;
+  color: #188ba0c2;
+  
+}
+
+.divorcio h2{
+  text-align: center;
+  color: white;
+}
+.img01{
+  width: 500px;
+  height: 450px;
+}
+.img02{
+  width: 700px;
+  height: 400px;
+}
+.divorcio li{
+  list-style-type: normal;
+  font-weight: 700;
+  color: #266a76c2;
+}
+.info-ayuda h3{
+  padding-top: 50px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 1.5rem;
+}
+.info-ayuda p{
+  color: #24262b;
+}
+.info-ayuda a{
+  color: #e91e63;
+}
 /*----Podcast-----*/
 .podcast{
   padding-top: 90px;

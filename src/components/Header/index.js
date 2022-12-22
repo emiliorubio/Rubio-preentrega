@@ -40,12 +40,12 @@ export const Header = () => {
                 <li>
                   <Link to="Divorcio">Divorcio</Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link to="Bullying">Bullying</Link>
                 </li>
                 <li>
                   <Link to="Confundido">Confundido</Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           )}

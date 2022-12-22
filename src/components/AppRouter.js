@@ -3,14 +3,15 @@ import { Routes, Route  } from "react-router-dom";
 import { Duelo } from './Blog/Duelo';
 import { Problemas } from "./Blog/Problemas";
 import { Divorcio } from "./Blog/Divorcio";
-import { Bullying } from "./Blog/Bullying";
-import { Confundido } from "./Blog/Confundido";
+// import { Bullying } from "./Blog/Bullying";
+// import { Confundido } from "./Blog/Confundido";
 import { Podcast } from "./Podcast";
 import { Contacto } from './Contacto';
 import { Footer } from './Footer/Footer';
 import { Header } from './Header';
 import { Inicio } from "./Inicio/index";
-import { ProductosLista } from './productos/index';
+import { ItemListContainer } from './ItemListContainer/ItemListContainer';
+import { ItemDetail } from "./ItemDetail/ItemDetail";
 
 export const AppRouter = () => {
   return (
@@ -18,14 +19,15 @@ export const AppRouter = () => {
   <Header/>
       <Routes>
         <Route path="/" element={<Inicio/>} />
-        <Route path="/productos" element={<ProductosLista />} />
+        <Route path="/productos" element={<ItemListContainer />} />
         <Route path="/Duelo" element={<Duelo />}/>
         <Route path="/Problemas" element={<Problemas />}/>
         <Route path="/Divorcio" element={<Divorcio />}/>
-        <Route path="/Bullying" element={<Bullying />}/>
-        <Route path="/Confundido" element={<Confundido />}/>
+        {/* <Route path="/Bullying" element={<Bullying />}/>
+        <Route path="/Confundido" element={<Confundido />}/> */}
         <Route path="/Podcast" element={<Podcast />}/>
         <Route path="/Contacto" element={<Contacto />}/>
+        <Route path="/Producto/:id" element={<ItemDetail />}/>
         
       </Routes>
       <Footer/>

@@ -8,6 +8,7 @@ const Data = {
       image: require('./images/basta-de-amores-de-mierda.jpg'),
       autor: "Gonzalo Romero",
       category:"libro",
+      cantidad:1
       
     },
     {
@@ -17,6 +18,7 @@ const Data = {
       image: require('./images/ahora-te-toca-ser-feliz.png'),
       autor: "Curro Cañete",
       category:"libro",
+      cantidad:1
       
     },
     {
@@ -26,6 +28,7 @@ const Data = {
       image: require('./images/aprende-como-vencer-tus-miedos-de-forma-eficaz.jpg'),
       autor: "Gamaliel Prince",
       category:"libro",
+      cantidad:1
       
     },
     {
@@ -35,6 +38,7 @@ const Data = {
       image: require('./images/don-positivo.jpg'),
       autor: "Marco A. Montero Granados",
       category:"libro",
+      cantidad:1
       
     },
     {
@@ -44,6 +48,7 @@ const Data = {
       image: require('./images/el-amor-de-tu-vida.jpg'),
       autor: "Rut Nieves",
       category:"libro",
+      cantidad:1
       
     },
     {
@@ -53,6 +58,7 @@ const Data = {
       image: require('./images/el-poder-de-confiar-en-ti.jpg'),
       autor: "Curro Cañete",
       category:"libro",
+      cantidad:1
       
     },
     {
@@ -62,6 +68,7 @@ const Data = {
       image: require('./images/habitos-de-superacion.jpg'),
       autor: "Susana Linares",
       category:"libro",
+      cantidad:1
       
     },
     {
@@ -71,6 +78,7 @@ const Data = {
       image: require('./images/inquebrantable.jpg'),
       autor: "Daniel Habif",
       category:"libro",
+      cantidad:1
       
     },
     {
@@ -80,6 +88,7 @@ const Data = {
       image: require('./images/se-amable-contigo-mismo.jpg'),
       autor: "Kristin Neff",
       category:"libro",
+      cantidad:1
       
     },
     {
@@ -89,6 +98,7 @@ const Data = {
       image: require('./images/todo-es-posible.jpg'),
       autor: "Luis Perez Santiago",
       category:"libro",
+      cantidad:1
       
     },
     {
@@ -98,6 +108,7 @@ const Data = {
       image: require('./images/vence-tu-miedo.jpg'),
       autor: "David Valois",
       category:"libro",
+      cantidad:1
       
     },
   ],
